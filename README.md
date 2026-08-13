@@ -9,7 +9,7 @@
 
 ## 📥 使用方式
 
-### 方式一：直接下载 exe（推荐，无需 Python）
+### 方式一：直接下载 exe（无需Python环境）
 
 前往 [Releases](../../releases) 下载 `小小蕾米埃尔.zip`，解压后双击 `小小蕾米埃尔.exe` 即可。
 
@@ -21,7 +21,7 @@ pip install PyQt5
 
 # 2. 启动
 python main.py
-# 或双击 run.bat（自动装依赖 + 无控制台启动）
+# 或双击 run.bat
 ```
 
 ### 方式三：自己打包 exe
@@ -57,15 +57,16 @@ python main.py
 
 项目结构
 
-```
-├── main.py              # 程序入口（托盘、菜单）
-├── pet_window.py        # 核心：窗口、状态机、设置、闹钟
-├── leimiaier1~6.gif     # 六种形态动画
-├── tubiao.jpg           # 图标
-├── run.bat              # 一键启动脚本
-├── run.pyw              # 双击无控制台启动
-├── build_exe.bat        # PyInstaller 打包脚本
-└── requirements.txt     # 依赖列表
+
+main.py              # 程序入口（托盘、菜单）
+pet_window.py        # 核心：窗口、状态机、设置、闹钟
+leimiaier1~6.gif     # 六种形态动画
+tubiao.jpg           # 图标
+run.bat              # 一键启动脚本
+run.pyw              # 双击无控制台启动
+build_exe.bat        # PyInstaller 打包脚本
+requirements.txt     # 依赖列表
 ```
 
 角色版权归米哈游《绝区零》所有，本项目仅供学习交流。
+此项目由DeepSeek V4 pro 辅助创作
